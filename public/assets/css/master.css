@@ -1,0 +1,112 @@
+body {
+    background: #000 !important;
+    background-size: 100% !important;
+}
+footer {
+    background-color: #181818;
+}
+
+#intro {
+    padding: 20em 0 10em;
+}
+#seethe {
+    background: #181818;
+}
+
+.border-end {
+    border-right: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.navbar {
+    background: none !important;
+    padding: 0 2rem !important;
+}
+.navbar a {
+    font-weight: bold;
+    color: #fff !important;
+}
+
+h1 {
+    font-family: "bebas neue", sans-serif;
+    color: #000 !important;
+    font-weight: normal !important;
+    font-size: 14em !important;
+}
+h2,
+h3 {
+    font-family: "bebas neue", sans-serif;
+    font-size: 8em;
+    color: white;
+}
+h3 {
+    color: #000;
+}
+h4 {
+    font-family: "bebas neue", sans-serif;
+    color: rgb(26, 26, 26) !important;
+    font-size: 1.4rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #fff !important;
+}
+
+.list-checked-circle.list-checked-secondary > li.done::before {
+    background-color: green !important;
+}
+
+p {
+    opacity: 0.8 !important;
+    color: #fff !important;
+}
+p.code {
+    font-size: 1.3em;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 2em;
+}
+
+.navbar-toggler-icon,
+.navbar.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='red' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar::before {
+    border-color: #cd6122 !important;
+    border-image: none !important;
+}
+
+.flickity-button:active,
+.flickity-button:focus,
+.flickity-button:hover,
+.flickity-button {
+    background-color: #cd6122 !important;
+}
+
+.btn {
+}
+.navbar-nav > .dropdown > .dropdown-toggle::after {
+    content: "" !important;
+}
+.navbar.navbar-light {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%) !important;
+    box-shadow: none !important;
+}
+
+@media (min-width: 516px) {
+}
+
+@media (max-width: 991.98px) {
+    body {
+    }
+    #intro {
+        padding: 10em 0 5em;
+    }
+    h1 {
+        font-size: 8em !important;
+    }
+}
